@@ -1,0 +1,7 @@
+from twilio.rest import Client
+
+#----------
+
+client = Client("ACcdf05575d25f59f9347e702fd91c7d44","ce16005ba0f5a9dd124f6eed4e0e4870")
+client.messages.create(to="+917447375204",from_="+12055462891", body="Hello from python")
+
